@@ -7,3 +7,5 @@ def gi;                    gets.split.map(&:to_i)                     end
 def gf;                    gets.split.map(&:to_f)                     end
 def gs;                    gets.chomp.split.map(&:to_s)               end
 def gc;                    gets.chomp.split('')                       end
+
+p false || false
